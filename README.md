@@ -5,12 +5,16 @@ This plugin allows you to pass an array of background colors for your bar chart.
 
 ## How to use
 
-*typescript*
+*for typescript*
 
 ```
 
 import {barColors} from 'chart.js-color-bars' //import it
 Chart.pluginService.register(barcolors)// register it as a plugin
+```
+*for javascripr*
+```
+require("path-to-chartjs-color-bars.js")
 ```
 on your dataset, add an array of colors of the same length as your array of data.
 
