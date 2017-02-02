@@ -1,6 +1,6 @@
     // plugin to change color of bars based on value, is used all over the dashboards
 
-    let barColors = Chart.pluginService.register({
+    let barColors ={
       beforeUpdate: function(chartInstance) {
 
 
@@ -12,6 +12,6 @@
           })
         })
       }
-    });
+    };
 
     export {barColors}
