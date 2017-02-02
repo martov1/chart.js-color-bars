@@ -1,4 +1,5 @@
     // plugin to change color of bars based on value, is used all over the dashboards
+    let Chart = require('chart.js')
 
     let barColors ={
       beforeUpdate: function(chartInstance) {
