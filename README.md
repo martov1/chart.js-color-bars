@@ -1,7 +1,11 @@
 # chart.js-color-bars
 
 This plugin allows you to pass an array of background colors for your bar chart.
+This repostory has 2 files:
+chart.js-color-bars.ts, for TYPESCRIPT
+chartjs-color-bars.JS for JAVASCRIPT
 
+the difference is minimal, the whole plugin is like 20 lines
 
 ## How to use
 
