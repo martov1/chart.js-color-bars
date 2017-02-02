@@ -1,4 +1,4 @@
-    // plugin to change color of bars based on value, is used all over the dashboards
+    // plugin to change color of bars based on value.
     let Chart = require('chart.js')
 
     let barColors ={
